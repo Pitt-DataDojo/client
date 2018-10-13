@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { AutoComplete } from 'antd';
-import '../styles/Home.css';
+import '../styles/Search.css';
 
 class Search extends Component {
   constructor(props){
@@ -13,10 +13,6 @@ class Search extends Component {
   }
 
   componentWillMount(){
-    axios.get('')
-    .then(function (response) {
-      
-    });
   }
 
   onChange(e){
@@ -24,23 +20,27 @@ class Search extends Component {
     const query = `https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=${e}`;
     axios.get(query)
     .then(function (res) {
-      console.log(res);
       if(res.data.suggestionGroup.suggestionList){
         search.setState({dataSource: res.data.suggestionGroup.suggestionList.suggestion});
       }
     });
   }
 
+  onSelect(e){
+    this.props.setDrugName(e);
+  }
+
 
   render() {
     const dataSource = ['12345', '23456', '34567'];
-    console.log(this.state.dataSource);
     return (
       <div className="App">
         <header className="App-header">
-          <AutoComplete 
+          <AutoComplete
+            id="Search"
             dataSource = {this.state.dataSource}
             onChange = {(e) => this.onChange(e)}
+            onSelect = {(e) => this.onSelect(e)}
           />
         </header>
       </div>
