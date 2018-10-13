@@ -9,32 +9,33 @@ class Home extends Component {
     super(props);
 
     this.state = {
+      adverseEffects: null,
       drugName: null,
       dataVis: null
     }
   }
 
-  componentWillMount(){
-    this.getAdverse();
-  }
-
   setDrugName(drugName){
     this.setState({ drugName: drugName });
+    if(drugName){
+      console.log(drugName);
+      this.getAdverse(drugName);
+    }
   }
 
   getAdverse(drugName){
+    const refThis = this;
     axios.get(`https://api.fda.gov/drug/event.json?search=patient.drug.openfda.brand_name:${drugName}&count=patient.reaction.reactionmeddrapt.exact`)
     .then(function (res) {
-      console.log(res);
+      refThis.setState({adverseEffects: res.data.results});
     });
   }
 
 
   render() {
-    console.log(this.state.drugName);
     return <React.Fragment>
       <Search setDrugName = {this.setDrugName.bind(this)} />
-      <Results dataVis = {this.state.dataVis} drugName = {this.state.drugName} />
+      <Results adverseEffects={this.state.adverseEffects} drugName = {this.state.drugName} />
 
     </React.Fragment>
   }

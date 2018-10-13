@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { AutoComplete } from 'antd';
 import '../styles/Search.css';
+import drugNames from '../data/ZAKjson.json'
 
 class Search extends Component {
   constructor(props){
     super(props);
+    const dataSet = new Set();
 
-    this.state = {
-      dataSource: []
+    for(var name in drugNames){
+      dataSet.add(drugNames[name].urlDrugName);
     }
+    this.dataSource = Array.from(dataSet).sort();
   }
 
-  componentWillMount(){
-  }
-
-  onChange(e){
-    const search = this;
-    const query = `https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=${e}`;
-    axios.get(query)
-    .then(function (res) {
-      if(res.data.suggestionGroup.suggestionList){
-        search.setState({dataSource: res.data.suggestionGroup.suggestionList.suggestion});
-      }
-    });
-  }
+  // onChange(e){
+  //   const search = this;
+  //   const query = `https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=${e}`;
+  //   axios.get(query)
+  //   .then(function (res) {
+  //     if(res.data.suggestionGroup.suggestionList){
+  //       search.setState({dataSource: res.data.suggestionGroup.suggestionList.suggestion});
+  //     }
+  //   });
+  // }
 
   onSelect(e){
     this.props.setDrugName(e);
@@ -32,14 +31,13 @@ class Search extends Component {
 
 
   render() {
-    const dataSource = ['12345', '23456', '34567'];
+    const test = ['Advil'];
     return (
       <div className="App">
         <header className="App-header">
           <AutoComplete
             id="Search"
-            dataSource = {this.state.dataSource}
-            onChange = {(e) => this.onChange(e)}
+            dataSource={this.dataSource}
             onSelect = {(e) => this.onSelect(e)}
           />
         </header>
