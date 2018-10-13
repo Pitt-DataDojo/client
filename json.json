@@ -1,0 +1,1418 @@
+[
+  {
+    "urlDrugName": "elavil",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 3,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 6,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 1,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 1,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "abilify",
+    "rating": 6,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 7,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "remeron",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 4,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 6,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "remeron",
+    "rating": 3,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 6,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 1,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 3,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 5,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 6,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 6,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 4,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 3,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lamictal",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lamictal",
+    "rating": 2,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "desyrel",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "symbyax",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 1,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 1,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 4,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "zyprexa",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 6,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "pristiq",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "serzone",
+    "rating": 3,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "paxil-cr",
+    "rating": 4,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "adderall",
+    "rating": 5,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 2,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "diazepam",
+    "rating": 3,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 4,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 6,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "emsam",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "neurontin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 8,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 7,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "citalopram",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "symbyax",
+    "rating": 2,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "pristiq",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-xl",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 7,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "lamictal",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "pristiq",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 3,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "pamelor",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "paxil",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 5,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 5,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 7,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 3,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "celexa",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 6,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 10,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "pristiq",
+    "rating": 9,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor-xr",
+    "rating": 3,
+    "effectiveness": "Marginally Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 10,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 8,
+    "effectiveness": "Highly Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "cymbalta",
+    "rating": 7,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "sarafem",
+    "rating": 6,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "wellbutrin-sr",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 9,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "No Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 8,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "prozac",
+    "rating": 1,
+    "effectiveness": "Considerably Effective",
+    "sideEffects": "Moderate Side Effects"
+  },
+  {
+    "urlDrugName": "effexor",
+    "rating": 5,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Mild Side Effects"
+  },
+  {
+    "urlDrugName": "lexapro",
+    "rating": 4,
+    "effectiveness": "Moderately Effective",
+    "sideEffects": "Severe Side Effects"
+  },
+  {
+    "urlDrugName": "zoloft",
+    "rating": 1,
+    "effectiveness": "Ineffective",
+    "sideEffects": "Extremely Severe Side Effects"
+  }
+]
