@@ -16,7 +16,7 @@ class App extends Component {
 
   render() {
     return <Router>
-      <div>
+      <div className="App">
       { this.routes.map((route, index) => (
 
               <Route

@@ -1,3 +1,8 @@
 .Drug{
-  width: 75%;
+  width: 90%;
+}
+
+td, th{
+  border-right: 1px solid black;
+  padding: 5px;
 }

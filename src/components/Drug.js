@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card } from 'antd';
+import ReactHtmlParser from 'react-html-parser';
 import '../styles/Drug.css';
 
 class Drug extends Component {
@@ -14,13 +15,17 @@ class Drug extends Component {
 
 
   render() {
-    return (
-      <div style={{width:"70%"}}>
-      <Card title={this.props.drugName}>
-
-      </Card>
-      </div>
-    );
+    console.log(this.props.data);
+    if(this.props.data){
+      return (
+        <Card className="Drug" title={this.props.drugName}>
+          <p>{this.props.data[0].description[0]}</p>
+          <div>{ ReactHtmlParser(this.props.data[0].dosage_and_administration_table[0]) }</div>
+        </Card>
+      );
+    }else{
+      return null;
+    }
   }
 }
 

@@ -11,15 +11,16 @@ class Home extends Component {
     this.state = {
       adverseEffects: null,
       drugName: null,
-      dataVis: null
+      dataVis: null,
+      labelInfo: null
     }
   }
 
   setDrugName(drugName){
     this.setState({ drugName: drugName });
     if(drugName){
-      console.log(drugName);
       this.getAdverse(drugName);
+      this.getLabel(drugName);
     }
   }
 
@@ -31,11 +32,23 @@ class Home extends Component {
     });
   }
 
+  getLabel(drugName){
+    const refThis = this;
+    axios.get(`https://api.fda.gov/drug/label.json?search=brand_name=${drugName}&limit=1`)
+    .then(function (res) {
+      refThis.setState({labelInfo: res.data.results});
+    });
+  }
+
 
   render() {
     return <React.Fragment>
       <Search setDrugName = {this.setDrugName.bind(this)} />
-      <Results adverseEffects={this.state.adverseEffects} drugName = {this.state.drugName} />
+      <Results 
+        adverseEffects={this.state.adverseEffects} 
+        drugName = {this.state.drugName} 
+        labelInfo = {this.state.labelInfo}
+      />
 
     </React.Fragment>
   }

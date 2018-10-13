@@ -9,7 +9,7 @@ class Results extends Component {
   render() {
     return(
       <div id="Results">
-        <Drug drugName = {this.props.drugName}/>
+        <Drug data={this.props.labelInfo} drugName = {this.props.drugName}/>
         <Adverse data={this.props.adverseEffects} />
       </div>
     )

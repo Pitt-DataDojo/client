@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 class Adverse extends Component {
 
   renderCustomizedLabel = (data) => {
-    console.log(data);
     const RADIAN = Math.PI / 180;  
     const radius = data.innerRadius + (data.outerRadius - data.innerRadius) * 0.5;
     const x  = data.cx + radius * Math.cos(-data.midAngle * RADIAN);
@@ -19,7 +18,6 @@ class Adverse extends Component {
   render() {
     if(this.props.data){
       const pieData = this.props.data.slice(0, 9);
-      console.log(pieData);
       return (
         <ResponsiveContainer width="100%" height={500}>
           <PieChart >
