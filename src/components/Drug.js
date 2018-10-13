@@ -15,9 +15,11 @@ class Drug extends Component {
 
   render() {
     return (
-      <Card className="Drug" title={this.props.drugName}>
+      <div style={{width:"70%"}}>
+      <Card title={this.props.drugName}>
 
       </Card>
+      </div>
     );
   }
 }
