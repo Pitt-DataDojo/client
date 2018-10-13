@@ -7,7 +7,9 @@ class Search extends Component {
   constructor(props){
     super(props);
 
-    this.dataSource = null;
+    this.state = {
+      dataSource: []
+    }
   }
 
   componentWillMount(){
@@ -17,13 +19,29 @@ class Search extends Component {
     });
   }
 
+  onChange(e){
+    const search = this;
+    const query = `https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=${e}`;
+    axios.get(query)
+    .then(function (res) {
+      console.log(res);
+      if(res.data.suggestionGroup.suggestionList){
+        search.setState({dataSource: res.data.suggestionGroup.suggestionList.suggestion});
+      }
+    });
+  }
+
 
   render() {
     const dataSource = ['12345', '23456', '34567'];
+    console.log(this.state.dataSource);
     return (
       <div className="App">
         <header className="App-header">
-          <AutoComplete dataSource = {dataSource}/>
+          <AutoComplete 
+            dataSource = {this.state.dataSource}
+            onChange = {(e) => this.onChange(e)}
+          />
         </header>
       </div>
     );
