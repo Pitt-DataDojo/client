@@ -2,11 +2,17 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(10,4))
 # import plotly.plotly as py
 %matplotlib inline
 df = pd.read_csv("/Users/ainurbaikara/Desktop/data_depr.csv", encoding="gbk")
 
 asd=df[df.urlDrugName == 'prozac']
 cp = sns.catplot(x="rating", hue="urlDrugName", col="effectiveness", 
-                    data=asd, kind="count", palette="Set3")
+                    data=asd, kind="count", palette="Set3", col_wrap=2, height=5, aspect=1)
+(cp.set_axis_labels("", "Counting the number of ratings")
+ .despine(left=True))
+ 
 cp.savefig('iiiim.svg', format='svg', dpi=1200)
+
+
