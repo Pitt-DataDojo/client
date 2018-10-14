@@ -49,7 +49,6 @@ class App extends Component {
       refThis.setState({adverseEffects: res.data.results});
     });
   }
-  //http://datadojobluehack-boring-chimpanzee.us-east.mybluemix.net/api/comments?medicine=prozac
 
   getComments(drugName){
     const refThis = this;
