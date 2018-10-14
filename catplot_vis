@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib.pyplot as plt
 # import plotly.plotly as py
 %matplotlib inline
 df = pd.read_csv("/Users/ainurbaikara/Desktop/data_depr.csv", encoding="gbk")
@@ -8,3 +9,4 @@ df = pd.read_csv("/Users/ainurbaikara/Desktop/data_depr.csv", encoding="gbk")
 asd=df[df.urlDrugName == 'prozac']
 cp = sns.catplot(x="rating", hue="urlDrugName", col="effectiveness", 
                     data=asd, kind="count", palette="Set3")
+cp.savefig('iiiim.svg', format='svg', dpi=1200)
