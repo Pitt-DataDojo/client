@@ -1,6 +1,5 @@
-import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Tooltip, ResponsiveContainer } from 'recharts';
 import React, { Component } from 'react';
-import { Card } from 'antd';
                 
 class Adverse extends Component {
 
@@ -16,13 +15,24 @@ class Adverse extends Component {
    );
   }
 
+  formatData(data){
+    let total = 0;
+    data.forEach((item) => {
+      total += item.count;
+    });
+    
+    return total;
+  }
+
   render() {
     if(this.props.data.adverseEffects){
+      const total = this.formatData(this.props.data.adverseEffects);
       const pieData = this.props.data.adverseEffects.slice(0, 9);
       
       return (
         <div className="Drug">
           <h1>Adverse Effects</h1>
+          <h3>Total reported: {total}</h3>
           <ResponsiveContainer width="100%" height={500}>
             <PieChart >
               <Pie dataKey="count" nameKey="term" data={pieData} cx="50%" cy="50%" innerRadius={80} outerRadius={160} fill="#82ca9d" label={this.renderCustomizedLabel}/>

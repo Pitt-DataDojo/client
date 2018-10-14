@@ -3,13 +3,26 @@ import { Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 
 class AppMenu extends Component {
+
   state = {
-    current: 'info',
+    current: 'info'
+  }
+
+  componentDidUpdate(prevProps, prevState){
+    if(prevProps.data.drugName != this.props.data.drugName){
+      this.setState({current: 'info'});
+    }
   }
   
   handleClick = (e) => {
     this.setState({
       current: e.key,
+    });
+  }
+
+  handleSelect = (key) => {
+    this.setState({
+      current: key,
     });
   }
 
@@ -30,10 +43,13 @@ class AppMenu extends Component {
           <Link to="/dosages"><Icon type="table" theme="outlined" />Dosages</Link>
         </Menu.Item>
         <Menu.Item key="ratings">
-          <Link to="/ratings"><Icon type="table" theme="outlined" />Ratings</Link>
+          <Link to="/ratings"><Icon type="bar-chart" theme="outlined" />Ratings</Link>
         </Menu.Item>
         <Menu.Item key="word-cloud">
-          <Link to="/word-cloud"><Icon type="table" theme="outlined" />WordCloud</Link>
+          <Link to="/word-cloud"><Icon type="cloud" theme="outlined" />WordCloud</Link>
+        </Menu.Item>
+        <Menu.Item key="social">
+          <Link to="/comments"><Icon type="twitter" theme="outlined" />Social</Link>
         </Menu.Item>
       </Menu>
     );

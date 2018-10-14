@@ -10,3 +10,19 @@
   align-items: center;
 }
 
+#logo{
+  position: absolute;
+  font-size: 2em;
+  color:white;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo{
+    display: none;
+  }
+}
+
+
+

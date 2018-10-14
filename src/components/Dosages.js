@@ -7,6 +7,9 @@ class Dosages extends Component {
 
   render() {
     if(this.props.data.labelInfo){
+      console.log(this.props.data.labelInfo);
+    }
+    if(this.props.data.labelInfo && this.props.data.labelInfo[0].dosage_and_administration_table){
       return (
         <Card className="Drug">
         <h1>Dosages</h1>

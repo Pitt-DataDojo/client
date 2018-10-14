@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import enUS from 'antd/lib/locale-provider/en_US';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { LocaleProvider } from 'antd';
+import { withRouter } from "react-router";
+
+
+const AppWithRouter = withRouter(App);
+
+
 
 ReactDOM.render(
-  <LocaleProvider locale={enUS}><App /></LocaleProvider>
+  <LocaleProvider locale={enUS}><Router><AppWithRouter /></Router></LocaleProvider>
 
 , document.getElementById('root'));
 

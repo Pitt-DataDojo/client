@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Drug from './components/Drug.js';
+import Comments from './components/Comments.js';
 import Ratings from './components/Ratings.js';
 import Menu from './components/Menu.js';
 import WordCloud from './components/WordCloud.js';
@@ -7,7 +8,7 @@ import Dosages from './components/Dosages.js';
 import Adverse from './components/Adverse.js';
 import Search from './components/Search.js';
 import axios from 'axios';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
 
     this.state = {
       adverseEffects: null,
+      comments: null,
       drugName: null,
       dataVis: null,
       labelInfo: null
@@ -33,6 +35,7 @@ class App extends Component {
     this.setState({ drugName: drugName });
     if(drugName){
       this.getAdverse(drugName);
+      this.getComments(drugName);
       this.getLabel(drugName);
       this.getRatings(drugName);
       this.getWordCloud(drugName);
@@ -46,6 +49,17 @@ class App extends Component {
       refThis.setState({adverseEffects: res.data.results});
     });
   }
+  //http://datadojobluehack-boring-chimpanzee.us-east.mybluemix.net/api/comments?medicine=prozac
+
+  getComments(drugName){
+    const refThis = this;
+    axios.get(`http://datadojobluehack-boring-chimpanzee.us-east.mybluemix.net/api/comments?medicine=${drugName}`)
+    .then(function (res) {
+      if(res.data){
+        refThis.setState({comments: res.data});
+      }
+    });
+  }
 
   getLabel(drugName){
     const refThis = this;
@@ -56,6 +70,7 @@ class App extends Component {
         refThis.setState({
           labelInfo: res.data.results
         });
+        refThis.props.history.push('/info');
       }
     });
   }
@@ -77,10 +92,11 @@ class App extends Component {
   }
 
   render() {
-    return <Router>
+    return (
       <div className="App">
+      <div id="logo">MDataRx</div>
       <Search setDrugName = {this.setDrugName.bind(this)} />
-      <Menu />
+      <Menu data={this.state} />
       <div id="results">
         <Route
           path='/info'
@@ -89,6 +105,10 @@ class App extends Component {
         <Route
           path='/adverse'
           render={(props) => <Adverse {...props} data={this.state} />}
+        />
+        <Route
+          path='/comments'
+          render={(props) => <Comments {...props} data={this.state} />}
         />
         <Route
           path='/dosages'
@@ -104,7 +124,7 @@ class App extends Component {
         />
       </div>
       </div>
-    </Router>
+    )
   }
 }
 
