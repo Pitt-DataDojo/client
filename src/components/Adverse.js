@@ -16,15 +16,19 @@ class Adverse extends Component {
   }
 
   render() {
-    if(this.props.data){
-      const pieData = this.props.data.slice(0, 9);
+    if(this.props.data.adverseEffects){
+      const pieData = this.props.data.adverseEffects.slice(0, 9);
+      
       return (
-        <ResponsiveContainer width="100%" height={500}>
-          <PieChart >
-            <Pie dataKey="count" nameKey="term" data={pieData} cx="50%" cy="50%" innerRadius={80} outerRadius={160} fill="#82ca9d" label={this.renderCustomizedLabel}/>
-            <Tooltip/>
-          </PieChart>
-         </ResponsiveContainer>
+        <React.Fragment>
+          <h1>Adverse Effects</h1>
+          <ResponsiveContainer width="100%" height={500}>
+            <PieChart >
+              <Pie dataKey="count" nameKey="term" data={pieData} cx="50%" cy="50%" innerRadius={80} outerRadius={160} fill="#82ca9d" label={this.renderCustomizedLabel}/>
+              <Tooltip/>
+            </PieChart>
+          </ResponsiveContainer>
+         </React.Fragment>
       );
     }else{
       return null;

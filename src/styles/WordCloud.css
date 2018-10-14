@@ -1,0 +1,19 @@
+#WordCloud{
+  width: 100%;
+  clip: rect(0px,60px,200px,0px);
+}
+
+figure{
+  width:100%; /*container-width*/
+  overflow:hidden; /*hide bounds of image */
+  margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+  display:block; /*remove inline-block spaces*/
+  width:100%; /*make image streatch*/
+}
+
+figure img{
+  /*add to other styles*/
+  margin:-15% 0;
+}
