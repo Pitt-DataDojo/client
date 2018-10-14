@@ -56,11 +56,6 @@ class App extends Component {
         refThis.setState({
           labelInfo: res.data.results
         });
-      if(res.data.results[0].openfda.rxcui){
-        refThis.setState({
-           rxcui: res.data.results[0].openfda.rxcui[0]
-        });
-      }
       }
     });
   }
