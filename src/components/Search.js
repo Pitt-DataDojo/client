@@ -14,17 +14,6 @@ class Search extends Component {
     this.dataSource = Array.from(dataSet).sort();
   }
 
-  // onChange(e){
-  //   const search = this;
-  //   const query = `https://rxnav.nlm.nih.gov/REST/spellingsuggestions.json?name=${e}`;
-  //   axios.get(query)
-  //   .then(function (res) {
-  //     if(res.data.suggestionGroup.suggestionList){
-  //       search.setState({dataSource: res.data.suggestionGroup.suggestionList.suggestion});
-  //     }
-  //   });
-  // }
-
   onSelect(e){
     this.props.setDrugName(e);
   }

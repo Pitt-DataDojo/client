@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Drug from './components/Drug.js';
 import Comments from './components/Comments.js';
 import Ratings from './components/Ratings.js';
+import logo from './images/SVG/design-2-01.svg';
 import Menu from './components/Menu.js';
 import WordCloud from './components/WordCloud.js';
 import Dosages from './components/Dosages.js';
@@ -93,7 +94,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div id="logo">MDataRx</div>
+      <div id="logo"><img id="logo-image" src={logo}></img></div>
       <Search setDrugName = {this.setDrugName.bind(this)} />
       <Menu data={this.state} />
       <div id="results">
