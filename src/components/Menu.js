@@ -29,6 +29,9 @@ class AppMenu extends Component {
         <Menu.Item key="dosages">
           <Link to="/dosages"><Icon type="table" theme="outlined" />Dosages</Link>
         </Menu.Item>
+        <Menu.Item key="ratings">
+          <Link to="/ratings"><Icon type="table" theme="outlined" />Ratings</Link>
+        </Menu.Item>
         <Menu.Item key="word-cloud">
           <Link to="/word-cloud"><Icon type="table" theme="outlined" />WordCloud</Link>
         </Menu.Item>

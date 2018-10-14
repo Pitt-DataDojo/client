@@ -17,6 +17,7 @@ class Drug extends Component {
     if(this.props.data.labelInfo){
       return (
         <Card className="Drug">
+        <h1>Drug Description</h1>
           <p>{this.props.data.labelInfo[0].description[0]}</p>
         </Card>
       );

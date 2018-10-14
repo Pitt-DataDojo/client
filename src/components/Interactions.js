@@ -2,7 +2,7 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import React, { Component } from 'react';
 import { Card } from 'antd';
                 
-class Adverse extends Component {
+class Interactions extends Component {
 
   renderCustomizedLabel = (data) => {
     const RADIAN = Math.PI / 180;  
@@ -38,4 +38,4 @@ class Adverse extends Component {
   }
 }
 
-export default Adverse;
+export default Interactions;

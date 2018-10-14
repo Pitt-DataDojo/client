@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Drug from './components/Drug.js';
+import Ratings from './components/Ratings.js';
 import Menu from './components/Menu.js';
 import WordCloud from './components/WordCloud.js';
 import Dosages from './components/Dosages.js';
@@ -33,6 +34,7 @@ class App extends Component {
     if(drugName){
       this.getAdverse(drugName);
       this.getLabel(drugName);
+      this.getRatings(drugName);
       this.getWordCloud(drugName);
     }
   }
@@ -50,9 +52,24 @@ class App extends Component {
     axios.get(`https://api.fda.gov/drug/label.json?search=brand_name=${drugName}&limit=1`)
     .then(function (res) {
       //        rxcui: res.data.results[0].openfda.rxcui[0]
-      refThis.setState({
-        labelInfo: res.data.results,
-      });
+      if(res.data.results[0]){
+        refThis.setState({
+          labelInfo: res.data.results
+        });
+      if(res.data.results[0].openfda.rxcui){
+        refThis.setState({
+           rxcui: res.data.results[0].openfda.rxcui[0]
+        });
+      }
+      }
+    });
+  }
+
+  getRatings(drugName){
+    const refThis = this;
+    axios.get(`http://datadojobluehack-boring-chimpanzee.us-east.mybluemix.net/api/dataviz?medicine=${drugName}`)
+    .then(function (res) {
+      refThis.setState({ratings: res.data});
     });
   }
 
@@ -81,6 +98,10 @@ class App extends Component {
         <Route
           path='/dosages'
           render={(props) => <Dosages {...props} data={this.state} />}
+        />
+        <Route
+          path='/ratings'
+          render={(props) => <Ratings {...props} data={this.state} />}
         />
         <Route
           path='/word-cloud'

@@ -9,6 +9,7 @@ class Dosages extends Component {
     if(this.props.data.labelInfo){
       return (
         <Card className="Drug">
+        <h1>Dosages</h1>
           <div>{ ReactHtmlParser(this.props.data.labelInfo[0].dosage_and_administration_table[0]) }</div>
         </Card>
       );
